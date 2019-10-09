@@ -1,27 +1,36 @@
 # NgCalcoolater
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
+1. Install nodejs (includes npm - node package manager)
 
-## Development server
+npm -v 
+node -v 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+sollte beides gehen
 
-## Code scaffolding
+2. Install angular-cli
+$ npm install -g @angular/cli
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Create angular project
+$ ng new ng-calcoolator
 
-## Build
+4. Projekt bisschen erklären, ng serve zeigen
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+5. src/ zeigen
 
-## Running unit tests
+6. main component generieren
+$ ng g c main
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+7. app.component.html inhalt löschen und <app-main></app-main> reinschreiben
 
-## Running end-to-end tests
+8. main component implementieren
+- textinput
+- button
+- textfeld
+- liste history
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+9. Service generieren und implementieren
 
-## Further help
+10. in browser zeigen
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+11. interceptor
+https://medium.com/@ryanchenkie_40935/angular-authentication-using-the-http-client-and-http-interceptors-2f9d1540eb8
