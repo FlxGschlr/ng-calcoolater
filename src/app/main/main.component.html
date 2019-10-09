@@ -1,0 +1,17 @@
+<div class="margin-bottom">
+  <input [(ngModel)]="input">
+</div>
+
+<div class="margin-bottom">
+  <button (click)="submit()">Submit</button>
+</div>
+
+<div class="margin-bottom">
+  {{text}}
+</div>
+
+<div class="margin-bottom">
+  <ul>
+    <li *ngFor="let i of history">{{i}}</li>
+  </ul>
+</div>
