@@ -1,16 +1,16 @@
-<div class="margin-bottom">
-  <input [(ngModel)]="input">
+<div  style="margin-bottom: 20px">
+  <input [(ngModel)]="inputtext">
 </div>
 
-<div class="margin-bottom">
+<div  style="margin-bottom: 20px">
   <button (click)="submit()">Submit</button>
 </div>
 
-<div class="margin-bottom">
+<div  style="margin-bottom: 20px">
   {{text}}
 </div>
 
-<div class="margin-bottom">
+<div style="margin-bottom: 20px">
   <ul>
     <li *ngFor="let i of history">{{i}}</li>
   </ul>
